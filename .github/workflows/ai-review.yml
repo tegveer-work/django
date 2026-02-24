@@ -12,6 +12,7 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "Workflow triggered successfully"
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
